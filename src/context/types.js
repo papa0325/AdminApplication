@@ -1,0 +1,2 @@
+export const UPDATE_HEADER = 'UPDATE_HEADER'
+export const DROPDOWN_HEADER = 'DROPDOWN_HEADER'

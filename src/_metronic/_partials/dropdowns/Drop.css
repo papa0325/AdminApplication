@@ -1,0 +1,22 @@
+.team-link:hover > div > .teamlist {
+    display: block;
+    position: absolute;
+    top: 10rem;
+    left: 175px;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    width: 180px;
+    background-color: white;
+    color: black;
+}
+.teamlist {
+    display: none;
+    border-radius: 0px 5px 5px 0;
+    box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+}
+.teamlist:hover {
+    display: block;
+}
+.dropdown-menu.dropdown-menu-sm{
+    width: 180px;
+}

@@ -1,0 +1,5 @@
+const fs = require('fs')
+fs.writeFileSync('./.env', `MONGODB_URL=${process.env.MONGODB_URL}\n`)
+fs.writeFileSync('./.env', `SERVER_URL=${process.env.SERVER_URL}\n`)
+fs.writeFileSync('./.env', `FRONT_URL=${process.env.FRONT_URL}\n`)
+fs.writeFileSync('./.env', `SECRET=${process.env.SECRET}\n`)
